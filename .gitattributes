@@ -1,0 +1,26 @@
+* text=auto eol=lf
+
+.gitattributes         export-ignore
+.gitignore             export-ignore
+.env                   export-ignore
+.env.example           export-ignore
+
+*.py     text eol=lf diff=python
+*.js     text eol=lf diff=javascript
+*.jsx    text eol=lf diff=javascript
+*.ts     text eol=lf diff=javascript
+*.tsx    text eol=lf diff=javascript
+*.md     text eol=lf diff=markdown
+
+uv.lock           -merge
+package-lock.json -merge
+pnpm-lock.yaml    -merge
+
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.gif   binary
+*.ico   binary
+
+*.sh   text eol=lf
+*.bat  text eol=lf

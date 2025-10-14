@@ -1,0 +1,21 @@
+{
+    "files.eol": "\n",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll": "always",
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "python.analysis.typeCheckingMode": "strict",
+    "markdown.validate.enabled": true,
+    "ruff.enable": true,
+    "ruff.lint.enable": true,
+    "ruff.format.enable": true,
+    "ruff.configuration": "${workspaceFolder}\\pyproject.toml",
+    "mypy-type-checker.args": [
+        "--config-file",
+        "${workspaceFolder}\\pyproject.toml",
+    ],
+}

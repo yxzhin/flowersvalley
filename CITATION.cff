@@ -1,0 +1,20 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: flowersvalley
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: yxzhin
+    email: yxzhin@gmail.com
+    affiliation: cirhalfstudio
+repository-code: 'https://github.com/yxzhin/flowersvalley'
+url: 'https://cirf.hhos.net'
+abstract: >-
+  a Telegram bot with economy && games featuring flowers.
+  made with <3 by yxzhin ^^ using pycord, FastAPI &&
+  Next.js.
+license: GPL-3.0
