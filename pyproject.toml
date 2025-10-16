@@ -1,18 +1,15 @@
 [project]
 name = "flowersvalley"
 version = "0.1.0"
-description = "a Telegram bot with economy && games featuring flowers. made with <3 by yxzhin ^^ using pycord, FastAPI && Next.js."
+description = "a Telegram bot with economy && games featuring flowers. made with <3 by yxzhin ^^ using aiogram, FastAPI && Next.js."
 requires-python = ">=3.13"
 dependencies = [
-    "aiohttp>=3.13.0",
+    "aiogram>=3.22.0",
     "alembic>=1.16.5",
     "asyncpg>=0.30.0",
     "fastapi[standard-no-fastapi-cloud-cli]>=0.118.0",
     "loguru>=0.7.3",
     "psycopg2>=2.9.11",
-    "py-cord>=2.6.1",
-    "pydantic>=2.12.0",
-    "pytest-asyncio>=1.2.0",
     "redis>=6.4.0",
     "sqlalchemy>=2.0.43",
     "uvicorn>=0.37.0",

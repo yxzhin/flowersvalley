@@ -1,6 +1,6 @@
 # flowersvalley
 
-a Telegram bot with economy &amp;&amp; games featuring flowers. made with &lt;3 by yxzhin ^^ using pycord, FastAPI &amp;&amp; Next.js.
+a Telegram bot with economy &amp;&amp; games featuring flowers. made with &lt;3 by yxzhin ^^ using aiogram, FastAPI &amp;&amp; Next.js.
 
 - warning: hard beta (still in development)
 

@@ -15,6 +15,6 @@ repository-code: 'https://github.com/yxzhin/flowersvalley'
 url: 'https://cirf.hhos.net'
 abstract: >-
   a Telegram bot with economy && games featuring flowers.
-  made with <3 by yxzhin ^^ using pycord, FastAPI &&
+  made with <3 by yxzhin ^^ using aiogram, FastAPI &&
   Next.js.
 license: GPL-3.0
